@@ -41,6 +41,9 @@ TARGET_HW_DISK_ENCRYPTION := true
 # Display
 TARGET_SCREEN_DENSITY := 420
 
+# SurfaceFlinger
+TARGET_USE_AOSP_SURFACEFLINGER := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := X00TD_defconfig
 
