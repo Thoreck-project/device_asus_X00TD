@@ -26,6 +26,10 @@ PRODUCT_COPY_FILES += \
 # Wifi
 PRODUCT_PACKAGES += \
     X00TDWifiOverlay
+    
+# CameraGo
+PRODUCT_PACKAGES += \
+    CameraGo
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/asus/X00TD/X00TD-vendor.mk)
